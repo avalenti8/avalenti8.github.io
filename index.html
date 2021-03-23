@@ -1,58 +1,17 @@
 <!DOCTYPE html>
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>serie A 2020/2021</title>
+  
+  <title>Introduzione Rocket League</title>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <style>
-    body {
-      background-image: url("https://c.wallhere.com/photos/63/3b/Rocket_League_orange_blue_black_car_soccer_rocketleague-29191.jpg!d");
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
+  
+  <link rel="stylesheet" type="text/css" href="stile.css">
 
-    h1 {
-      text-align: center;
-      font-size: 90px;
-      color: white;
-    }
-
-    h2 {
-      text-align: center;
-      color: white;
-      text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-      font-size: 50px;
-    }
-
-    h3 {
-      text-align: center;
-      color: blue;
-      font-size: 40px;
-    }
-
-    h4 {
-      text-align: center;
-      color: black;
-      font-size: 25px;
-    }
-
-    img {
-      float: left;
-      border-radius: 8px;
-    }
-
-    p {
-      text-align: center;
-      color: white;
-      text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-      font-size: 25px;
-      
-    }
-
-  </style>
 </head>
 <body>
   
@@ -71,6 +30,17 @@
     <p>
       Il giocatore controllerà un'auto, detta Battle-Car, in un campo rettangolare con due porte ai lati più piccoli. Sono presenti due squadre (Arancione e Blu) da 1 a 4 giocatori. Lo scopo del gioco è di mandare il maggior numero di palle nella porta avversaria. La squadra che in 5 minuti avrà segnato più gol vincerà la partita. In caso di pareggio alla fine del tempo regolamentare si ricorrerà al golden goal in un tempo supplementare, ovvero un tempo illimitato in cui il primo goal segnato vale la vittoria della propria squadra e la fine all'incontro. Guidando sopra a dei cerchi gialli sparsi simmetricamente all'interno del campo di gioco è possibile ottenere circa un ottavo di turbo (12), mentre guidando sopra a delle sfere negli angoli ed in mezzeria laterale del campo di gioco è possibile ottenere la ricarica completa del turbo (100). Questo serve ad aumentare la velocità dell'auto del giocatore se utilizzato a terra, mentre se utilizzato in aria (grazie ad un salto) serve a sferrare colpi aerei più potenti rispetto a quelli sferrati grazie ad un semplice balzo; la quantità di turbo acquisita è presente nell'apposito indicatore posto nell'angolo in basso a destra sulla schermata di gioco.
     </p>
+    
+    <button class="button" onclick="stampa()">Sono un bottone, clicca</button>
+
+    <p id="demo"></p>
+
+    <script>
+    function stampa() {
+      document.getElementById("demo").innerHTML = "Hai cliccato il bottone";
+    }
+    </script>
+
 
     
 
