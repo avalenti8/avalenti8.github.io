@@ -1,0 +1,44 @@
+body {
+background-image: url("https://c.wallhere.com/photos/63/3b/Rocket_League_orange_blue_black_car_soccer_rocketleague-29191.jpg!d");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1 {
+text-align: center;
+font-size: 90px;
+color: white;
+}
+
+h2 {
+text-align: center;
+color: white;
+text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+font-size: 50px;
+}
+
+img {
+float: left;
+border-radius: 8px;
+}
+
+p {
+text-align: center;
+color: white;
+text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+font-size: 25px;     
+}
+
+.button {
+border: none;
+color: rgb(55, 0, 255);
+padding: 16px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 25px;
+margin: 4px 2px;
+transition-duration: 0.4s;
+cursor: pointer;
+background-color: #ffffff;
+}
